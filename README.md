@@ -19,15 +19,15 @@
 ## Pipeline
 
 #
-
-###        /------------http:8080------->>----------\         /-----> Slack
-###       /                                          \       /
-###      /                                            \     /                   
-###(localhost) ---> push --->(GitHub)---> clone ---> (Jenkins) --- deploy ---> (remote local ansible host: joomla+Apache+MariaDB )
-###      \                                                                              /
-###       \                                                                            /
-###        \----------------------- << -------http:80------ >> -----------------------/
-
+```bash
+        /------------http:8080------->>----------\         /-----> Slack
+       /                                          \       /
+      /                                            \     /                   
+(localhost) ---> push --->(GitHub)---> clone ---> (Jenkins) --- deploy ---> (remote local ansible host: joomla+Apache+MariaDB )
+      \                                                                              /
+       \                                                                            /
+        \----------------------- << -------http:80------ >> -----------------------/
+```
 #
 
 ## Technologies which were used in project
