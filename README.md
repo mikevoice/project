@@ -1,20 +1,18 @@
-# My project
+## My project
 
 ## Project's reporter: Murashevich Mikhail
 
----
+Group number: md-sa2-18-21
 
-## Group number: md-sa2-18-21
+Description of application for deployment
 
-## Description of application for deployment
+Name: Joomla
 
-### Name: Joomla
+SCM GitHub 
 
-### SCM GitHub 
+Webserver: Apache
 
-### Webserver: Apache
-
-### Database: MariaDB
+Database: MariaDB
 
 ## Pipeline
 
@@ -30,15 +28,15 @@
 ```
 #
 
-## Technologies which were used in project
+Technologies which were used in project
 
-## Orchestration: Jenkins
+Orchestration: Jenkins
 
-## Automation tools: Ansible
+Automation tools: Ansible
 
-## SCM: Github
+SCM: Github
 
-## Notification: Slack
+Notification: Slack
 
 links
 
