@@ -1,2 +1,3 @@
 [local.web]
 192.168.0.160 ansible_user=vagrant
+192.168.0.161 ansible_user=vagrant
