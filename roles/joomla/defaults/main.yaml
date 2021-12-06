@@ -1,7 +1,7 @@
 --- 
 # Install packages
 yum_php_packages:
-  - https://rpms.remirepo.net/enterprise/remi-release-8.rpm
+  - http://rpms.remirepo.net/enterprise/remi-release-8.rpm
   - yum-utils
 
 yum_additional_packages:
