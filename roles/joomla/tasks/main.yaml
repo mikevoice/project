@@ -98,7 +98,7 @@
 
 - name: Joomla install. Unarchive joomla package
   unarchive:
-    src: "{{ archive_dir }}"
+    remote_src: "{{ archive_dir }}"
     dest: "{{ joomla_dir }}"
     owner: apache
     group: apache
