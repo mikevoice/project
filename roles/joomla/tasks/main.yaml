@@ -105,7 +105,7 @@
     mode: 777
   notify:
     - Restart apache
-  become: yes
+  become_user: vagrant
   tags:
     joomla_install
 
