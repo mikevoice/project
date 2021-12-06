@@ -18,10 +18,10 @@ Database: MariaDB
 
 #
 ```bash
-        /------------http:8080------->>----------\         /-----> Slack
-       /                                          \       /
-      /                                            \     /                   
-(localhost) ---> push --->(GitHub)---> clone ---> (Jenkins) --- deploy ---> (remote local ansible host: joomla+Apache+MariaDB )
+        /-------------http:8080------->>----------\         /-----> Slack
+       /                                           \       /
+      /                                             \     /                   
+(localhost) ---> push --->(GitHub) <--- clone ---> (Jenkins) --- deploy ---> (remote local ansible host: joomla+Apache+MariaDB )
       \                                                                              /
        \                                                                            /
         \----------------------- << -------http:80------ >> -----------------------/
