@@ -38,7 +38,7 @@ SCM: Github
 
 Notification: Slack
 
-links
+Links
 
-### Github [repository](https://github.com/mikevoice/project)
+### Project [repository](https://github.com/mikevoice/project)
 ### Jenkinsfile [repository](https://github.com/mikevoice/pipe)
