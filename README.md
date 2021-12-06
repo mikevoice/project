@@ -6,13 +6,14 @@ Group number: md-sa2-18-21
 
 Description of application for deployment
 
+SCM GitHub
+
 Name: Joomla
 
-SCM GitHub 
+Database: MariaDB
 
 Webserver: Apache
 
-Database: MariaDB
 
 ## Pipeline
 
