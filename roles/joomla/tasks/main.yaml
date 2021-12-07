@@ -115,3 +115,6 @@
     path: "{{ joomla_dir }}"
     mode: 775
     recurse: yes
+  become: yes
+  tags:
+    joomla_install
