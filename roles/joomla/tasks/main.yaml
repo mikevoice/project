@@ -103,6 +103,7 @@
     remote_src: true
     owner: apache
     group: apache
+    recurse: yes
     mode: 777
   notify:
     - Restart apache
