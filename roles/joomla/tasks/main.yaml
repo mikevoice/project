@@ -113,8 +113,7 @@
 - name: Permissions joomla directory 
   file:
     path: "{{ joomla_dir }}"
-    mode: 775
-    recurse: yes
+    directory_mode: 0775
   become: yes
   tags:
     joomla_install
