@@ -121,7 +121,7 @@
 
 - name: Delete file to "tmp" directory
   file:
-    path: {{ archive_dir }}
+    path: "{{ archive_dir }}"
     state: absent
   become: yes
   tags:
