@@ -118,3 +118,11 @@
   become: yes
   tags:
     joomla_install
+
+- name: Delete file to "tmp" directory
+  file:
+    path: {{ archive_dir }}
+    state: absent
+  become: yes
+  tags:
+    joomla_install
