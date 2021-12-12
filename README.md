@@ -19,13 +19,13 @@ Webserver: Apache
 
 #
 ```bash
-        /-------------http:8080------->>----------\         /-----> Slack
-       /                                           \       /
-      /                                             \     /                   
-(localhost) ---> push --->(GitHub) <--- clone ---> (Jenkins) --- deploy ---> (remote local ansible host: joomla+Apache+MariaDB )
-      \                                                                              /
-       \                                                                            /
-        \----------------------- << -------http:80------ >> -----------------------/
+        /-------------http:8080----->>----\         /--> Slack
+       /                                   \       /            /->(remote_1 local ansible host: joomla+Apache+MariaDB )
+      /                                     \     /            /       
+(localhost)-->push-->(GitHub)<-- clone --> (Jenkins) -- deploy --> (remote_2 local ansible host: joomla+Apache+MariaDB )
+      \                                                                      /
+       \                                                                    /
+        \--------------- << -------http:80------ >> -----------------------/
 ```
 #
 
