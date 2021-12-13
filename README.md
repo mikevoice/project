@@ -37,7 +37,27 @@ Automation tools: Ansible
 
 SCM: Github
 
+Tool for building and managing virtual machine: Vagrant
+
 Notification: Slack
+
+
+---
+
+CI description
+
+First deploy: 
+
+User copy ssh keys to remote hosts. 
+Starting a job with Jenkins UI. All we do is log in, navigate to our job, and click the Build with Parameters
+This will take us to a screen that asks for choises for joomla version which we want to deploy.
+
+![Image](pic/11111.png)
+
+After clicking Build with Parameters, the changes are sent to the Playbook Joomla [repository](https://github.com/mikevoice/project)
+
+    
+
 
 Links
 
