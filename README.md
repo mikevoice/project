@@ -16,18 +16,8 @@ Webserver: Apache
 
 
 ## Pipeline
+![Image](pic/pipeline.png)
 
-#
-```bash
-        /-------------http:8080----->>----\         /--> Slack
-       /                                   \       /            /->(remote host_1 ansible host: joomla+Apache+MariaDB )
-      /                                     \     /            /       
-(localhost)-->push-->(GitHub)<-- clone --> (Jenkins) -- deploy --> (remote host_2 ansible host: joomla+Apache+MariaDB )
-      \                                                                      /
-       \                                                                    /
-        \--------------- << -------http:80------ >> -----------------------/
-```
-#
 
 Technologies which were used in project
 
