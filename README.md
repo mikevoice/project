@@ -34,7 +34,7 @@ Notification: Slack
 
 ---
 
-CI description
+## CI description
 
 First deploy: 
 
@@ -50,7 +50,7 @@ Start the deployment procedure - Jenkinsfile [repository](https://github.com/mik
 Jenkins pipeline launches ansible playbook. 
 Start roles: webserver, data base, joomla in remote hosts 
     
-##Update:
+## Update:
 
 Jenkins UI. Navigate to our job and click the Build with Parameters. 
 Select the version and update of the package "Stable-Update_Package"
