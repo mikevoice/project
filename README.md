@@ -38,7 +38,7 @@ Notification: Slack
 
 First deploy: 
 
-User copy ssh keys to remote hosts. 
+Copy ssh keys (Jenkins host, remote hosts) 
 
 Starting a job with Jenkins UI.
 
@@ -54,7 +54,7 @@ Start the deployment procedure - Jenkinsfile [repository](https://github.com/mik
 
 Jenkins pipeline launches ansible playbook. 
 
-Start roles: webserver, data base, joomla in remote hosts 
+Start roles: webserver, data base, joomla. 
     
 ## Update:
 
