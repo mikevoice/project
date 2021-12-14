@@ -68,6 +68,12 @@ Start update procedure - Jenkinsfile [repository](https://github.com/mikevoice/p
 
 ---
 
+## Playbook syntax check
+
+Jenkins pipeline ansible-lint
+
+---
+
 Links
 
 ### Project [repository](https://github.com/mikevoice/project)
