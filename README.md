@@ -70,7 +70,7 @@ Start update procedure - Jenkinsfile [repository](https://github.com/mikevoice/p
 
 ## Playbook syntax check
 
-Jenkins pipeline ansible-lint
+ansible-lint into [jenkinsfile](https://github.com/mikevoice/pipe/blob/master/Jenkinsfile)
 
 ---
 
