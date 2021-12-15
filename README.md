@@ -66,7 +66,15 @@ Select the version and update of the package "Stable-Update_Package"
 
 Start update procedure - Jenkinsfile [repository](https://github.com/mikevoice/pipe)
 
----
+## Rollback
+
+Jenkins UI. Navigate to our job and click the Build with Parameters.
+
+Choose the old joomla version on which we want to rollback.
+
+Select the version and update of the package "Stable-Full_Package"
+
+Start rollback procedure - Jenkinsfile [repository](https://github.com/mikevoice/pipe)
 
 ## Playbook syntax check
 
@@ -75,6 +83,5 @@ ansible-lint into [jenkinsfile](https://github.com/mikevoice/pipe/blob/master/Je
 ---
 
 Links
-
 ### Project [repository](https://github.com/mikevoice/project)
 ### Jenkinsfile [repository](https://github.com/mikevoice/pipe)
