@@ -60,7 +60,7 @@ Start roles: webserver, data base, joomla.
 
 Jenkins UI. Navigate to our job and click the Build with Parameters. 
 
-Select the version and update of the package "Stable-Update_Package"
+Select in  menu "version and update" of the package "Stable-Update_Package"
 
 ![Image](pic/22222.png)
 
@@ -72,7 +72,7 @@ Jenkins UI. Navigate to our job and click the Build with Parameters.
 
 Choose the old joomla version on which we want to rollback.
 
-Select the version and update of the package "Stable-Full_Package"
+Select in menu "version and update" of the package "Stable-Full_Package"
 
 Start rollback procedure - Jenkinsfile [repository](https://github.com/mikevoice/pipe)
 
